@@ -1,0 +1,16 @@
+{
+  "name": "setbased/abc-mail-message",
+  "description": "ABC-Framework: MailMessage",
+  "keywords": [
+    "framework",
+    "mail",
+    "message"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SetBased\\Abc\\Mail\\": "src/"
+    }
+  }
+}
