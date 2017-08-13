@@ -1,10 +1,10 @@
 {
   "name": "setbased/abc-mail-message",
-  "description": "ABC-Framework: MailMessage",
+  "description": "ABC-Framework: Mail Message",
   "keywords": [
-    "framework",
-    "mail",
-    "message"
+    "ABC-Framework",
+    "Mail",
+    "Message"
   ],
   "type": "library",
   "license": "MIT",
