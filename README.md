@@ -1,4 +1,4 @@
-# ABC-Framework: Mail Massage
+# ABC-Framework: Mail Message
 
 <table>
 <thead>
