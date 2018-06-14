@@ -1,8 +1,7 @@
 <?php
-//----------------------------------------------------------------------------------------------------------------------
+
 namespace SetBased\Abc\Mail;
 
-//----------------------------------------------------------------------------------------------------------------------
 /**
  * Interface for creating and sending emails.
  */
@@ -21,7 +20,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function addBcc($usrId, $address, $name = null);
+  public function addBcc(?int $usrId, string $address, string $name = null): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -36,7 +35,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function addCc($usrId, $address, $name = null);
+  public function addCc(?int $usrId, string $address, ?string $name = null): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -50,7 +49,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function addCustomHeader($name, $value);
+  public function addCustomHeader(?string $name, ?string $value): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -65,7 +64,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function addFrom($usrId, $address, $name = null);
+  public function addFrom(?int $usrId, string $address, ?string $name = null): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -80,7 +79,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function addReadReceiptTo($usrId, $address, $name = null);
+  public function addReadReceiptTo(?int $usrId, string $address, ?string $name = null): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -95,7 +94,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function addReplyTo($usrId, $address, $name = null);
+  public function addReplyTo(?int $usrId, string $address, ?string $name = null): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -110,7 +109,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function addTo($usrId, $address, $name = null);
+  public function addTo(?int $usrId, string $address, ?string $name = null): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -123,7 +122,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function attach($blbId);
+  public function attach(int $blbId): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -136,7 +135,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function embed($blbId);
+  public function embed(int $blbId): string;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -147,7 +146,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function send();
+  public function send(): int;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -160,7 +159,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function setBody($blbId);
+  public function setBody(int $blbId): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -173,7 +172,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function setMessageId($id);
+  public function setMessageId(string $id): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -188,7 +187,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function setSender($usrId, $address, $name = null);
+  public function setSender(?int $usrId, string $address, ?string $name = null): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -201,7 +200,7 @@ interface MailMessage
    * @api
    * @since 1.0.0
    */
-  public function setSubject($subject);
+  public function setSubject(string $subject): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
 }
