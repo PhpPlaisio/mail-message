@@ -113,7 +113,7 @@ interface MailMessage
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Attaches a BLOB as a attachment to this message.
+   * Attaches a BLOB as an attachment to this message.
    *
    * @param int $blbId The ID of the BLOB.
    *
@@ -139,7 +139,7 @@ interface MailMessage
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Sends the message and returns the ID of this sent message
+   * Sends the message and returns the ID of this sent message.
    *
    * @return int
    *
