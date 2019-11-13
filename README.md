@@ -1,4 +1,4 @@
-# SetBased ABC-Framework: Mail Message
+# Plaisio: Mail Message
 
 Interface for creating and sending mail messages.
 
@@ -13,13 +13,13 @@ Interface for creating and sending mail messages.
 <tbody>
 <tr>
 <td>
-<a href="https://gitter.im/setbased-abc-framework/abc"><img src="https://badges.gitter.im/setbased-abc-framework/abc.svg" alt="Gitter"/></a>
+<a href="https://gitter.im/PhpPlaisio/Plaisio"><img src="https://badges.gitter.im/PhpPlaisio/Plaisio.svg" alt="Gitter"/></a>
 </td>
 <td>
-<a href="https://packagist.org/packages/setbased/abc-mail-message"><img src="https://poser.pugx.org/setbased/abc-mail-message/license" alt="License"/></a>
+<a href="https://packagist.org/packages/plaisio/mail-message"><img src="https://poser.pugx.org/plaisio/mail-message/license" alt="License"/></a>
 </td>
 <td>
-<a href="https://packagist.org/packages/setbased/abc-mail-message"><img src="https://poser.pugx.org/setbased/abc-mail-message/v/stable" alt="Latest Stable Version"/></a>
+<a href="https://packagist.org/packages/plaisio/mail-message"><img src="https://poser.pugx.org/plaisio/mail-message/v/stable" alt="Latest Stable Version"/></a>
 </td>
 </tr>
 </tbody>

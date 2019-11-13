@@ -1,19 +1,18 @@
 {
-  "name": "setbased/abc-mail-message",
-  "description": "SetBased ABC-Framework: Mail Message",
+  "name": "plaisio/mail-message",
+  "description": "Plaísio: Mail Message",
   "keywords": [
-    "SetBased ABC-Framework",
+    "Plaísio",
     "Mail",
     "Message"
   ],
-  "type": "library",
   "license": "MIT",
   "require": {
     "php": ">=7.1.0"
   },
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\Mail\\": "src/"
+      "Plaisio\\Mail\\": "src/"
     }
   }
 }
