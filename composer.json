@@ -1,8 +1,8 @@
 {
   "name": "plaisio/mail-message",
-  "description": "Plaisio: Mail Message",
+  "description": "PhpPlaisio: Mail Message",
   "keywords": [
-    "Plaisio",
+    "PhpPlaisio",
     "Mail",
     "Message"
   ],
