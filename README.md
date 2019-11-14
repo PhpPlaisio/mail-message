@@ -13,7 +13,7 @@ Interface for creating and sending mail messages.
 <tbody>
 <tr>
 <td>
-<a href="https://gitter.im/PhpPlaisio/PhpPlaisio"><img src="https://badges.gitter.im/PhpPlaisio/Plaisio.svg" alt="Gitter"/></a>
+<a href="https://gitter.im/PhpPlaisio/PhpPlaisio"><img src="https://badges.gitter.im/PhpPlaisio/PhpPlaisio.svg" alt="Gitter"/></a>
 </td>
 <td>
 <a href="https://packagist.org/packages/plaisio/mail-message"><img src="https://poser.pugx.org/plaisio/mail-message/license" alt="License"/></a>
