@@ -1,0 +1,9 @@
+<kernel>
+    <properties>
+        <property>
+            <type>\Plaisio\Mail\MailMessageFactory</type>
+            <name>mail</name>
+            <description>The helper object for creating mail messages.</description>
+        </property>
+    </properties>
+</kernel>
