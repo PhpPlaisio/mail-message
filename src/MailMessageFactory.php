@@ -14,7 +14,7 @@ interface MailMessageFactory
    *
    * @return MailMessage
    */
-  public function createMailMessage(): MailMessage;
+  public function create(): MailMessage;
 
   //--------------------------------------------------------------------------------------------------------------------
 }
