@@ -194,7 +194,7 @@ interface MailMessage
   /**
    * Sets the subject of this message.
    *
-   * @param $subject
+   * @param string $subject The subject of this mail message.
    *
    * @return $this
    *
